@@ -30,7 +30,7 @@
 
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- List of Carrier one mcc mncs-->
     <string-array name="config_carrier_one_networks" translatable="false">
         <item>405840</item>
@@ -65,5 +65,8 @@
         <item>-105</item>
         <item>-44</item>
     </integer-array>
+
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 </resources>
 
