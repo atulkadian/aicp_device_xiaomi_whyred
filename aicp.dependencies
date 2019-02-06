@@ -1,20 +1,18 @@
 [
   {
-    "repository": "kernel_xiaomi_sdm660",
+    "remote": "akhilnarang"
+    "repository": "whyred",
     "target_path": "kernel/xiaomi/sdm660"
   },
   {
-    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "remote": "LineageOS"
+    "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-16.0"
   },
   {
-    "repository": "proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
+    "remote": "AtulKadian"
+    "repository": "vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred"
   },
-  {
-    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
-    "target_path": "vendor/MiuiCamera",
-    "branch": "pie-whyred"
-  }
 ]
