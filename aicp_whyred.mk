@@ -1,5 +1,6 @@
-# 
+#
 # Copyright (C) 2018 The Mokee Project
+# Copyright (C) 2019 AICP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit some common AOSiP stuff.
+# Inherit some common AICP stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Inherit from custom vendor

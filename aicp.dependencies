@@ -1,6 +1,6 @@
 [
   {
-    "repository": "kernel_xiaomi_sdm660",
+    "repository": "srfarias/Xiaomi_Kernel_OpenSource",
     "target_path": "kernel/xiaomi/sdm660"
   },
   {
@@ -9,12 +9,8 @@
     "branch": "lineage-16.0"
   },
   {
-    "repository": "proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
-  },
-  {
-    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
-    "target_path": "vendor/MiuiCamera",
-    "branch": "pie-whyred"
+    "repository": "AtulKadian/vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred"
+    "branch": "p9.0"
   }
 ]

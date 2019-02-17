@@ -191,9 +191,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.mot_detect=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi \
     persist.camera.HAL3.enabled=1 \
-    camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
+    camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android \
+    vendor.camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
 
 #disable UBWC for camera
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -348,7 +350,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Ignore the wrong IWLAN report when UE in W/G mode.
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_con_rprt=1
-    
-    
+
 # Make data selection stick in dual SIM devices
 persist.radio.aosp_usr_pref_sel=true
