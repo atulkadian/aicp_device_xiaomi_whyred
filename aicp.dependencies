@@ -1,7 +1,8 @@
 [
   {
-    "repository": "srfarias/Xiaomi_Kernel_OpenSource",
-    "target_path": "kernel/xiaomi/sdm660"
+    "repository": "AtulKadian/kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/whyred",
+    "branch": "p9.0"
   },
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
