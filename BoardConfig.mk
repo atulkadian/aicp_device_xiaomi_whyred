@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2018 The Mokee Project
-# COpyright (C) 2019 AICP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -74,7 +73,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := whyred
+TARGET_OTA_ASSERT_DEVICE := whyred,RedmiNote5,RedmiNote5Pro,redminote5,redminote5pro
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
